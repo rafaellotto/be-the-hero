@@ -11,6 +11,4 @@ app.use(routes);
 
 app.use(errors());
 
-console.log('Escutando solicitações...');
-
-app.listen(3333);
+module.exports = app;
